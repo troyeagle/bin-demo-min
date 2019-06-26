@@ -1,6 +1,6 @@
 {
   "name": "bin-demo-min",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "An empty package which has 'bin' command in package.json, only for npm enclose to use.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "echo \"Bin test\" && exit 0"
   },
   "bin": {
-    "bin-demo-min": "echo \"Bin test\" && exit 0"
+    "bin-demo-min": "./index.js"
   },
   "repository": {
     "type": "git",
