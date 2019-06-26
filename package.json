@@ -1,13 +1,13 @@
 {
   "name": "bin-demo-min",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An empty package which has 'bin' command in package.json, only for npm enclose to use.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "bin": "echo \"Bin test\" && exit 0",
     "start": "echo \"Bin test\" && exit 0"
   },
+  "bin": "echo \"Bin test\" && exit 0",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/troyeagle/bin-demo-min.git"
